@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=4.0, user-scalable=yes">
+    <!-- 这几个js会被 com.tencent.yb.infra.mermaid.render.OfflineInterceptor 替换成shiply资源 -->
+    <script src="https://cdn-hybrid-prod.hunyuan.tencent.com/manual/app/mermaid.js"></script>
+    <script src="https://cdn-hybrid-prod.hunyuan.tencent.com/manual/app/html2canvas.js"></script>
+    <script src="https://static.yuanbao.tencent.com/m/lib/markdown/mermaid/mermaid-sanitizer.es6.min.js"></script>
+
+    <script src="file:///android_asset/mermaid/main.js"></script>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* 垂直居中 */
+            align-items: center;
+            background: transparent;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-height: 100vh;
+            /* 限制最大高度为屏幕高度 */
+            overflow: auto;
+            /* 允许内容超出时滚动 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: auto;
+            max-height: 100vh;
+            /* 限制最大高度为屏幕高度 */
+            overflow: auto;
+            /* 允许内容超出时滚动 */
+            display: flex;
+            justify-content: center;
+            padding: 24px;
+            box-sizing: border-box;
+        }
+
+        .mermaid {
+            width: 100%;
+            max-width: 100%;
+            transform-origin: center;
+            /* 缩放中心点 */
+        }
+
+        .dchart {
+            display: none !important;
+        }
+
+        /* 屏蔽a标签的所有状态样式 */
+        a {
+            cursor: default !important;
+            pointer-events: none !important;
+            text-decoration: none !important;
+        }
+
+        a:link {
+            color: inherit !important;
+        }
+
+        a:visited {
+            color: inherit !important;
+        }
+
+        a:hover {
+            color: inherit !important;
+            background-color: inherit !important;
+        }
+
+        a:active {
+            background-color: inherit !important;
+            color: inherit !important;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+
+        a:focus {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="container" id="container">
+            <!-- 动态插入的容器 -->
+        </div>
+    </div>
+    <script>
+        let lastTapTime = 0;
+        let tapTimeout = null;
+
+        // 统一处理触摸/点击事件
+        function handleTap(event) {
+            const currentTime = new Date().getTime();
+            const tapDelay = currentTime - lastTapTime;
+
+            // 判断是否为双击（300ms 内连续点击）
+            if (tapDelay < 300 && tapDelay > 0) {
+                clearTimeout(tapTimeout); // 取消单击的延迟执行
+                handleDoubleClick(event);
+                lastTapTime = 0;
+            } else {
+                lastTapTime = currentTime;
+                tapTimeout = setTimeout(() => {
+                    handleClick(event); // 执行单击操作
+                }, 300); // 双击判断阈值（300ms）
+            }
+            function handleClick(e) {
+                // 调用 Android 接口
+                Android.onWebViewClicked();
+            }
+            // 新增双击逻辑
+            function handleDoubleClick(e) {
+                Android.onWebViewDoubleClicked(); // 调用 Android 接口
+            }
+        }
+        document.body.addEventListener('click', handleTap);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+version:0
+string|glb_search_detail_back|QmFjaw==
+string|glb_search_history_delete_all|RGVsZXRlIGFsbA==
+string|glb_search_history_done|RG9uZQ==
+string|glb_search_title_agent|QWdlbnRz
+string|glb_search_title_empty|Tm8gZGF0YQ==
+string|glb_search_title_error|U2VhcmNoIGVycm9y
+string|glb_search_title_history|SGlzdG9yaWNhbCBSZWNvcmRz
+string|glb_search_title_hot|U2VhcmNoIERpc2NvdmVyaWVz
+string|glb_search_title_more|U2VlIG1vcmU=
+string|glb_search_title_placeholder|U2VhcmNoIGtleXdvcmRz
+string|glb_search_title_search|U2VhcmNo
+string|glb_search_title_suggest_empty|Tm8gaGlzdG9yeSBmb3VuZC4g4pyoVHJ5IHRoZXNlIHNlYXJjaGVz
+string|glb_search_title_suggest|4pyoVHJ5IHRoZXNlIHNlYXJjaGVz

@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="88dp"
+    android:height="88dp"
+    android:viewportWidth="88"
+    android:viewportHeight="88">
+    <!--
+    头像占位图
+    尺寸: 88×88dp
+    
+    未经人工审核 - AI 生成代码
+    TODO: 从设计稿获取正确的占位图资源
+    -->
+    <path
+        android:pathData="M44,44m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0"
+        android:fillColor="#E0E0E0"/>
+    <path
+        android:pathData="M44,26C38.48,26 34,30.48 34,36C34,41.52 38.48,46 44,46C49.52,46 54,41.52 54,36C54,30.48 49.52,26 44,26Z"
+        android:fillColor="#BDBDBD"/>
+    <path
+        android:pathData="M44,50C35.16,50 28,54.48 28,60V62H60V60C60,54.48 52.84,50 44,50Z"
+        android:fillColor="#BDBDBD"/>
+</vector>

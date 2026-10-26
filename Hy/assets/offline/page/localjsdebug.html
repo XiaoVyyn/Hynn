@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no,address=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <script>window.HYJSBridge = window.HYJSBridge || function () {
+            var e = !1, n = []
+            document.addEventListener && document.addEventListener("JSBridgeReady", function () {
+                for (var i = 0; i < n.length; i++) n[i]()
+                e = !0
+            }, !1)
+            var i = function (e, n, i) {
+                n.errMsg = n.errMsg || e + ":ok"
+                var t = n.errMsg.lastIndexOf(":")
+                if (t > 0) {
+                    var o = n.errMsg.substring(t + 1)
+                    switch (o) {
+                        case "ok":
+                            i.success && i.success(n)
+                            break
+                        case "cancel":
+                            i.cancel && i.cancel(n)
+                            break
+                        default:
+                            i.fail && i.fail(n)
+                    }
+                    i.complete && i.complete(n)
+                }
+            }, t = function (e, n, t) {
+                window.jsb && window.jsb.invoke(e, n, function (n) {
+                    i(e, n, t)
+                })
+            }, o = function (e, n, d, o) {
+                window.jsb && window.jsb.on(e, n, d, o)
+            }, ebo = function (n, d, cb, once) {
+                if ((typeof cb === 'undefined') && (typeof d == 'function')) {
+                    cb = d, d = null
+                }
+                o("eventBus." + n, cb, d, once)
+            }
+            return {
+                ready: function (i) {
+                    "function" == typeof i && (e ? i() : n.push(i))
+                },
+                chooseSingleFile: function (e) {
+                    e = e || {};
+                    t("chooseSingleFile", {
+                        extType: e.extType || ['pdf', 'docx'],
+                        quality: e.quality || 80
+                    }, e)
+                },
+                chooseImage: function (e) {
+                    e = e || {};
+                    t("chooseImage", {
+                        count: e.count || 9,
+                        sourceTypes: e.sourceTypes || ['camera', 'album'],
+                        quality: e.quality || 80
+                    }, e)
+                },
+                startRecord: function (e) {
+                    e = e || {};
+                    t("startRecord", {
+                        onEndCallbackId: e.onEndCallbackId || 'onEndCallback001'
+                    }, e)
+                },
+                stopRecord: function (e) {
+                    e = e || {};
+                    t("stopRecord", {
+                    }, e)
+                },
+                close: function (e) {
+                    e = e || {};
+                    t("close", {
+                    }, e)
+                },
+                authScope: function (e) {
+                    e = e || {};
+                    t("authScope", {
+                        scopes: e.scopes || ['camera', 'microphone'],
+                    }, e)
+                },
+                login: function (e) {
+                    e = e || {};
+                    t("login", {
+                        appid: e.appid,
+                        agentId: e.agentId
+                    }, e)
+                },
+                setNavigationBarStyle: function (e) {
+                    e = e || {};
+                    t("setNavigationBarStyle", {
+                        theme: e.theme || "light"
+                    }, e)
+                },
+                updateNavBarData: function (e) {
+                    e = e || {};
+                    t("updateNavBarData", {
+                        icon: e.icon || "https://photo.16pic.com/00/87/81/16pic_8781369_b.jpg",
+                        title: e.title || "本地测试",
+                        subTitle: e.subTitle,
+                        backIntercept: e.backIntercept || true,
+                        btnInfo: e.btnInfo || {
+                            btnType: 0,
+                            btnData: "https://img2.baidu.com/it/u=2474145226,3381806253&fm=253&fmt=auto&app=138&f=JPEG?w=603&h=500",
+                        }
+                    }, e)
+                },
+                addPhoneCalendar: function (e) {
+                    e = e || {};
+                    t("addPhoneCalendar", {
+                        title: e.title,
+                        startTime: e.startTime
+                    }, e)
+                },
+                tencentDocAuthorize: function (e) {
+                    e = e || {};
+                    t("addPhoneCalendar", {
+                        state: "e.title",
+                        code: "e.startTime"
+                    }, e)
+                },
+                shareTo: function (e) {
+                    e = e || {};
+                    t("shareTo", {
+                        scene: e.scene,
+                        type: e.type,
+                        data: e.data,
+                    }, e)
+                },
+                hasPermission: function (e) {
+                    e = e || {};
+                    t("hasPermission", {
+                        permissionName: "notification"
+                    }, e)
+                },
+                requestPermission: function (e) {
+                    e = e || {};
+                    t("requestPermission", {
+                        permissionName: "notification",
+                        alertData: {
+                            title: "开启通知权限",
+                            content: "开启通知权限，活动开启后立刻通知你前来参与",
+                            positiveButton: "开启",
+                            negativeButton: "取消"
+                        }
+                    }, e)
+                },
+                getIsPageShow: function (e) {
+                    e = e || {};
+                    t("getIsPageShow", {}, e)
+                },
+                getRoute: function (e) {
+                    e = e || {};
+                    t("getRoute", {}, e)
+                },
+                getDeviceInfo: function (e) {
+                    e = e || {};
+                    t("getDeviceInfo", {}, e)
+                },
+                getNetworkState: function (e) {
+                    e = e || {};
+                    t("getNetworkState", {}, e)
+                },
+                navigate: function (e) {
+                    e = e || {};
+                    t("getNetworkState", {
+                    route: e.route
+                    }, e)
+                },
+                callbacks: function (e) { }
+            }
+        }()
+
+
+    </script>
+</head>
+
+<body>
+<div id="app" class="page_wrap">
+    <div class="page page-index">
+        <div class="page-content">
+            <div class="page-content-inner">
+                <div style="height: 80px"></div>
+                <div class="page-title">HYJSBridge</div>
+                <div class="page-desc">HYJSBridge Demo</div>
+                <div class="page-btns">
+                    <button href="javascript:;" id="chooseImage">chooseImage</button>
+                    <button href="javascript:;" id="chooseSingleFile">chooseSingleFile</button>
+                    <button href="javascript:;" id="startRecord">startRecord</button>
+                    <button href="javascript:;" id="stopRecord">stopRecord</button>
+                    <button href="javascript:;" id="close">close</button>
+                    <button href="javascript:;" id="authScope">authScope</button>
+                    <button href="javascript:;" id="login">login</button>
+                    <button href="javascript:;" id="setNavigationBarStyle">SetNavigationBarStyle</button>
+                    <button href="javascript:;" id="updateNavBarData">updateNavBarData</button>
+                    <button href="javascript:;" id="updateNavBarDataText">updateNavBarDataText</button>
+                    <button href="javascript:;" id="updateNavBarDataImg">updateNavBarDataImg</button>
+                    <button href="javascript:;" id="addPhoneCalendar">addPhoneCalendar</button>
+                    <button href="javascript:;" id="getIsPageShow">getIsPageShow</button>
+                    <button href="javascript:;" id="getRoute">getRoute</button>
+                    <button href="javascript:;" id="getDeviceInfo">getDeviceInfo</button>
+                    <button href="javascript:;" id="getNetworkState">getNetworkState</button>
+                    <button href="javascript:;" id="navigate">navigate</button>
+                    <button href="javascript:;" id="tencentDocAuthorize">tencentDocAuthorize</button>
+                    <button href="javascript:;" id="shareTo">shareTo</button>
+                    <button href="javascript:;" id="hasPermission">hasPermission</button>
+                    <button href="javascript:;" id="requestPermission">requestPermission</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function alert(msg) {
+        console.log(msg)
+    }
+
+    HYJSBridge.ready(function () {
+        document.getElementById("chooseImage").addEventListener('click', function () {
+            HYJSBridge.chooseImage({
+                success: function (res) {
+                    alert(res.data.base64List[1])
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        window.HYJSBridge.callbacks.onPageHide = function () {
+            alert("onPageHide")
+        }
+        document.getElementById("chooseSingleFile").addEventListener('click', function () {
+            HYJSBridge.chooseSingleFile({
+                success: function (res) {
+                    alert(res.data.base64)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("startRecord").addEventListener('click', function () {
+            HYJSBridge.startRecord({
+                success: function (res) {
+                    alert(JSON.stringify(res))
+                },
+                fail: function (res) {
+                    alert(JSON.stringify(res))
+                }
+            })
+        })
+        document.getElementById("stopRecord").addEventListener('click', function () {
+            HYJSBridge.stopRecord({
+                success: function (res) {
+                    alert(JSON.stringify(res))
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("close").addEventListener('click', function () {
+            HYJSBridge.close({
+                success: function (res) {
+                    alert(JSON.stringify(res))
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("authScope").addEventListener('click', function () {
+            HYJSBridge.authScope({
+                success: function (res) {
+                    alert(JSON.stringify(res))
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("login").addEventListener('click', function () {
+            HYJSBridge.login({
+                appid: "midas",
+                agentId: "midas",
+                success: function (res) {
+                    alert(res.data.code)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("setNavigationBarStyle").addEventListener('click', function () {
+            HYJSBridge.setNavigationBarStyle({
+                theme: "dark",
+                success: function (res) {
+                    alert(res.data.code)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("updateNavBarData").addEventListener('click', function () {
+            HYJSBridge.updateNavBarData({
+                success: function (res) {
+                    alert(res.data.code)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("updateNavBarDataText").addEventListener('click', function () {
+            HYJSBridge.updateNavBarData({
+                subTitle: "@元宝UGC",
+                btnInfo: {
+                    btnType: 2,
+                    btnData: "按钮",
+                },
+                success: function (res) {
+                    alert(res.data.code)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("updateNavBarDataImg").addEventListener('click', function () {
+            HYJSBridge.updateNavBarData({
+                btnInfo: {
+                    btnType: 1,
+                    btnData: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAGKADAAQAAAABAAAAGAAAAADiNXWtAAAA4ElEQVRIDe1UyQ3CMBAMiCb40giWKIR0gimFQpDMlyIQNSD+MCPAWq/jKwq/jDTK7G1vlHTdjAk20KPHE3wp0teDWSyy0U/wjMcGPKncPewbuFP+wFwF1rCxhPsOWlBiC4OxLPQNuIYp4PvqGxzRnSczIHULDkh24KVUZJEw5iasYW2A4g6D7BFG7QCL3kb0p7bCTsraAdyvEV2o6SuidkCxUSphHpDajPfrD80HlOBH54RPauGOZe0Aq0odbLKIv7/koRs8vseyxePFCb/aOCI8a+gryH9LC1nD2hltG3gDkP8qCnHuJd4AAAAASUVORK5CYII=",
+                    btnId: 12345
+                },
+                success: function (res) {
+                    alert(res.data.code)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        window.HYJSBridge.callbacks.onNavBarBtnClick = function (res) {
+            alert(JSON.stringify(res))
+        }
+        window.HYJSBridge.callbacks.onNavBarBack = function (res) {
+            alert(JSON.stringify(res))
+            HYJSBridge.close({
+                success: function (res) {
+                    alert(JSON.stringify(res))
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        }
+        window.onEndCallback001 = function (res) {
+            alert(JSON.stringify(res))
+        }
+        document.getElementById("addPhoneCalendar").addEventListener('click', function () {
+            HYJSBridge.addPhoneCalendar({
+                title: "测试",
+                startTime: 1735574400,
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("tencentDocAuthorize").addEventListener('click', function () {
+            HYJSBridge.tencentDocAuthorize({
+                state: "测试",
+                code: "1735574400",
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("shareTo").addEventListener('click', function () {
+           HYJSBridge.shareTo({
+    scene: "weibo",
+    type: "webpage",
+    data: JSON.stringify({
+      inputTxt: "微博图片描述文字"
+    }),
+    success: function(res) {
+      alert("微博图片分享成功");
+    },
+    fail: function(res) {
+      alert("微博图片分享失败: " + res.errMsg);
+    }
+  });
+        })
+        document.getElementById("getIsPageShow").addEventListener('click', function () {
+            HYJSBridge.getIsPageShow({
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("getRoute").addEventListener('click', function () {
+            HYJSBridge.getRoute({
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("getDeviceInfo").addEventListener('click', function () {
+            HYJSBridge.getDeviceInfo({
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("getNetworkState").addEventListener('click', function () {
+            HYJSBridge.getNetworkState({
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("hasPermission").addEventListener('click', function () {
+            HYJSBridge.hasPermission({
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("requestPermission").addEventListener('click', function () {
+            HYJSBridge.requestPermission({
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+        document.getElementById("navigate").addEventListener('click', function () {
+            HYJSBridge.navigate({
+                route: "/agent?agentId=YtJnx05Gcx",
+                success: function (res) {
+                    alert(res)
+                },
+                fail: function (res) {
+                    alert(res.errMsg)
+                }
+            })
+        })
+    })
+</script>
+</body>
+
+</html>

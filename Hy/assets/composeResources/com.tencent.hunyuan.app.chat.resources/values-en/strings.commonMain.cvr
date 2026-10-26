@@ -1,0 +1,17 @@
+version:0
+string|app_main_accessibility_cancel_dislike_response|UmVtb3ZlIHRoZSBEaXNsaWtl
+string|app_main_accessibility_cancel_like_response|UmVtb3ZlIHRoZSBMaWtl
+string|app_main_accessibility_copy_response|Q29weSB0aGlzIHJlc3BvbnNl
+string|app_main_accessibility_dislike_response|RGlzbGlrZSB0aGlzIHJlc3BvbnNl
+string|app_main_accessibility_like_response|TGlrZSB0aGlzIHJlc3BvbnNl
+string|app_main_accessibility_share_response|U2hhcmUgT3B0aW9ucw==
+string|app_main_menu_copy|Q29weQ==
+string|app_main_menu_dislike|RGlzbGlrZQ==
+string|app_main_menu_like|TGlrZQ==
+string|app_main_menu_play|UmVhZA==
+string|app_main_menu_quick_share_to_im|WXVhbmJhbyBQYWk=
+string|app_main_menu_regenerate|UmVnZW5lcmF0ZQ==
+string|app_main_menu_share|U2hhcmU=
+string|app_main_menu_stop_play|U3RvcCBSZWFkaW5n
+string|app_main_repeat_deep_think|RGVlcFRoaW5r
+string|app_main_repeat_fast_think|RmFzdFRoaW5r

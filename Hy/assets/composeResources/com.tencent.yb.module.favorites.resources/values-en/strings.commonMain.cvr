@@ -1,0 +1,17 @@
+version:0
+string|favorite_cancel_favorite_success|VGhlIGNhbmNlbGxhdGlvbiB3YXMgc3VjY2Vzc2Z1bA==
+string|favorite_cancel_favorite|VW5mYXZvcml0ZQ==
+string|favorite_continue_conversation_btn|Q29udGludWU=
+string|favorites_chats|Q29udGludWU=
+string|favorites_confirm_add_favorite|RmF2b3JpdGU=
+string|favorites_favorite_empty_placeholder_desc|RXZlcnkgZmF2b3JpdGUgc2hpbmVzIGJyaWdodGx5
+string|favorites_favorite_empty_placeholder_title|Tm8gY29udGVudA==
+string|favorites_favorite_list_title|RmF2b3JpdGU=
+string|favorites_filter_list_item_title_conversation|Q2hhdA==
+string|favorites_filter_list_item_title_file|RmlsZQ==
+string|favorites_filter_list_item_title_image|SW1hZ2U=
+string|favorites_filter_list_item_title_link|TGluaw==
+string|favorites_filter_list_item_title_text|VGV4dA==
+string|favorites_filter_list_item_title_voice_record|UmVjb3Jk
+string|favorites_loading|TG9hZGluZy4uLg==
+string|favorites_remove|VW5mYXZvcml0ZQ==

@@ -1,0 +1,104 @@
+{
+  "arm64-v8a": [
+    {
+      "md5": "61765301f90b4c8bafbf230853bb70da",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/arm64v8a/libDownloadProxy.so",
+      "size": 6411640,
+      "name": "DownloadProxy"
+    },{
+      "md5": "99867d3e0f131be317eda64dee1d56f1",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/31000/arm64v8a/libtp2p.so",
+      "size": 4597032,
+      "name": "tp2p"
+    },{
+      "md5": "0a9fc3b84a4588712bedcb241a69d5a0",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30802/arm64v8a/libnetbase.so",
+      "size": 3591248,
+      "name": "netbase"
+    },{
+      "md5": "836a7a1c8c64a6cdd4e0ef767acfba5e",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30802/arm64v8a/libWnsLiteNetwork.so",
+      "size": 3018448,
+      "name": "WnsLiteNetwork"
+    },{
+      "md5": "70c535ca06c99de9bde741f0081b7bae",
+      "url": "http://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30600/arm64v8a/libSuperSound3.so",
+      "size": 5939504,
+      "name": "SuperSound3"
+    }
+  ],
+  "armeabi-v7a": [
+    {
+      "md5": "7537ba911021f0d2ae9611eab4338de9",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/armeabiv7a/libDownloadProxy.so",
+      "size": 4596008,
+      "name": "DownloadProxy"
+    },{
+      "md5": "2489ed1d672d45134bfe0daee48ee910",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/31000/armeabiv7a/libtp2p.so",
+      "size": 2895184,
+      "name": "tp2p"
+    },{
+      "md5": "92c93e1dd67560b1fa24d1768a9f417b",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30802/armeabiv7a/libnetbase.so",
+      "size": 2879540,
+      "name": "netbase"
+    },{
+      "md5": "64a85e61cfefd72c0eed3eb3ae8a91b5",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30802/armeabiv7a/libWnsLiteNetwork.so",
+      "size": 2094428,
+      "name": "WnsLiteNetwork"
+    },{
+      "md5": "4e109d6b3c6fe214cb2a8a93021128a5",
+      "url": "http://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30600/armeabiv7a/libSuperSound3.so",
+      "size": 4263460,
+      "name": "SuperSound3"
+    }
+  ],
+  "x86_64": [
+    {
+      "md5": "f89a1cd205af4e615c35a7cac00a3d6f",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/31000/x86_64/libtp2p.so",
+      "size": 4888152,
+      "name": "tp2p"
+    },{
+      "md5": "9a9ee2d4ac8fe5946da776237826d61b",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30802/x86_64/libnetbase.so",
+      "size": 3833192,
+      "name": "netbase"
+    },{
+      "md5": "2de58389e1fb43b51747fae8e21aaf9f",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30802/x86_64/libWnsLiteNetwork.so",
+      "size": 3273080,
+      "name": "WnsLiteNetwork"
+    },{
+      "md5": "e61bc8bc38df86e017734611ef2422e6",
+      "url": "http://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30600/x86_64/libSuperSound3.so",
+      "size": 6283872,
+      "name": "SuperSound3"
+    }
+  ],
+  "x86": [
+    {
+      "md5": "e73205cd3d81d7a775b8e5fb5289809b",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/31000/x86/libtp2p.so",
+      "size": 4959736,
+      "name": "tp2p"
+    },{
+      "md5": "b49522f0a4d7f1abf2e9c8f4db4af23c",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30802/x86/libnetbase.so",
+      "size": 3393484,
+      "name": "netbase"
+    },{
+      "md5": "610173e77b0c49026bd5b3564f4b3a28",
+      "url": "https://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30802/x86/libWnsLiteNetwork.so",
+      "size": 3283444,
+      "name": "WnsLiteNetwork"
+    },{
+      "md5": "286dfe4a230aff323493abc6bdf451cf",
+      "url": "http://dldir1.qq.com/music/qqmusiccar/so/openapisdk/30600/x86/libSuperSound3.so",
+      "size": 5897840,
+      "name": "SuperSound3"
+    }
+  ]
+}

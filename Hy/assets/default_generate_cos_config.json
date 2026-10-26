@@ -1,0 +1,175 @@
+{
+  "hok_cos_template": [
+    {
+      "slotId": "f255414882f04f528f5131f8979dcff2",
+      "title": "蚩奼",
+      "prompt": "把图片转换为蚩奼cos照",
+      "@localization": {
+        "title": {
+          "en-US": "CHI CHA",
+          "zh-HK": "蚩奼"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a CHI CHA cosplay",
+          "zh-HK": "把圖片轉換為蚩奼cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133352686/Production/ChiComponent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113753955/Production/ChiPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119104331785/Production/ChiPreviewPad.jpg",
+      "priority": 1
+    },
+    {
+      "slotId": "34fb4de0de4c4bab7a7592efed6a621f",
+      "title": "大乔",
+      "prompt": "把图片转换为大乔cos照",
+      "@localization": {
+        "title": {
+          "en-US": "DA QIAO",
+          "zh-HK": "大喬"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a DA QIAO cosplay",
+          "zh-HK": "把圖片轉換為大喬cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133359307/Production/DaQiaoComponent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113800885/Production/DaQiaoPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119104403220/Production/DaQiaoPreviewPad.jpg",
+      "priority": 2
+    },
+    {
+      "slotId": "3ac92ca3411dfb9b4209c9cadd8583db",
+      "title": "朵莉亚",
+      "prompt": "把图片转换为朵莉亚cos照",
+      "@localization": {
+        "title": {
+          "en-US": "DOLIA",
+          "zh-HK": "朵莉亞"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a DOLIA cosplay",
+          "zh-HK": "把圖片轉換為朵莉亞cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133405274/Production/DuoLiYaComponent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113806947/Production/DuoLiYaPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113017532/Production/DuoLiYaPreviewPad.jpg",
+      "priority": 3
+    },
+    {
+      "slotId": "03c33da6e3d81acfd777f09526e27988",
+      "title": "李白",
+      "prompt": "把图片转换为李白cos照",
+      "@localization": {
+        "title": {
+          "en-US": "LI BAI",
+          "zh-HK": "李白"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a LI BAI cosplay",
+          "zh-HK": "把圖片轉換為李白cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133419189/Production/LiBaiComponent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113828208/Production/LiBaiPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113055395/Production/LiBaiPreviewPad.jpg",
+      "priority": 4
+    },
+    {
+      "slotId": "077e72a82ba9b3bd165d5fae2454bf91",
+      "title": "曜",
+      "prompt": "把图片转换为曜cos照",
+      "@localization": {
+        "title": {
+          "en-US": "YAO",
+          "zh-HK": "曜"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a YAO cosplay",
+          "zh-HK": "把圖片轉換為曜cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133440189/Production/YaoComponent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113843925/Production/YaoPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113114259/Production/YaoPreviewPad.jpg",
+      "priority": 5
+    },
+    {
+      "slotId": "23b88e90fbe33832a5082f929bacc8c0",
+      "title": "诸葛亮",
+      "prompt": "把图片转换为诸葛亮cos照",
+      "@localization": {
+        "title": {
+          "en-US": "KONGMING",
+          "zh-HK": "諸葛亮"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a KONGMING cosplay",
+          "zh-HK": "把圖片轉換為諸葛亮cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133447011/Production/ZhuGeLiangComponent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113849474/Production/ZhuGeLiangPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113121282/Production/ZhuGeLiangPreviewPad.jpg",
+      "priority": 6
+    },
+    {
+      "slotId": "ca9f298ae65a1d2a7c144cd6f4a0d3d6",
+      "title": "哪吒",
+      "prompt": "把图片转换为哪吒cos照",
+      "@localization": {
+        "title": {
+          "en-US": "NEZHA",
+          "zh-HK": "哪吒"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a NEZHA cosplay",
+          "zh-HK": "把圖片轉換為哪吒cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133431984/Production/NeZhaComponent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113836114/Production/NeZhaPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113106317/Production/NeZhaPreviewPad.jpg",
+      "priority": 7
+    },
+    {
+      "slotId": "7979d1b93e719242407e897517561fc0",
+      "title": "镜",
+      "prompt": "把图片转换为镜cos照",
+      "@localization": {
+        "title": {
+          "en-US": "JING",
+          "zh-HK": "鏡"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a JING cosplay",
+          "zh-HK": "把圖片轉換為鏡cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133411323/Production/JingComponent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113813503/Production/JingPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113029116/Production/JingPreviewPad.jpg",
+      "priority": 8
+    },
+    {
+      "slotId": "9fb81d1549f0dc957e34d34edbadcf13",
+      "title": "空空儿",
+      "prompt": "把图片转换为空空儿cos照",
+      "@localization": {
+        "title": {
+          "en-US": "KONGKONG ER",
+          "zh-HK": "空空兒"
+        },
+        "prompt": {
+          "en-US": "Transfer the image to a KONGKONG ER cosplay",
+          "zh-HK": "把圖片轉換為空空兒cos照"
+        }
+      },
+      "component_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251120133425531/Production/KongKongErCompnent.jpg",
+      "cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113821402/Production/KongKongErPreview.jpg",
+      "pad_cover_path": "https://shiply-yuanbao.shiply-cdn.qq.com/reshub/c994081134/markdown.share.photo_to_hok_cos_template_res/formal/20251119113039097/Production/KongKongErPreviewPad.jpg",
+      "priority": 9
+    }
+  ]
+}

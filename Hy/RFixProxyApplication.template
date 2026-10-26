@@ -1,0 +1,13 @@
+package %PACKAGE%;
+
+import com.tencent.rfix.loader.app.RFixProxyApplication;
+
+/**
+ * Generated application for RFix
+ */
+public class %APPLICATION% extends RFixProxyApplication {
+
+    public %APPLICATION%() {
+        super("%APPLICATION_DELEGATE%", %MAIN_PROCESS%);
+    }
+}
